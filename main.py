@@ -1,9 +1,8 @@
 import requests
 import json
 import re
-import sys
-import logging
 import pprint
+import time
 
 _disklist_uri = 'https://santonianindustries.com/backend/hdd'
 _diskdetails_uri = 'https://santonianindustries.com/backend/hdd_details'
@@ -87,7 +86,7 @@ def categorizeAllFiles(disk_file_list, _debug):
 
     return [_log_list, _audio_list]
  
-def getAllDisksAndFiles(disk_list, _debug=True):
+def getAllDisksAndFiles(_debug=True):
     # retrieve all archives
     disk_list = getDiskList(_disklist_uri)
 
@@ -121,14 +120,20 @@ def writeToDatabase(dict):
         with open('db.json', 'w') as db:
             json.dump(dict, db)
 
-def checkIfDatabaseEmpty(file):
-    with open(file,'r',encoding='utf-8') as r:
-        try:
-            j = json.load(r)
-        except:
-            r.seek(0)
-            j = json.loads('['+r.read().replace('}{','},{')+']')[0]
-
+def importDatabase(file):
+    try:
+        with open(file,'r',encoding='utf-8') as r:
+            try:
+                j = json.load(r)
+            except:
+                r.seek(0)
+                j = json.loads('['+r.read().replace('}{','},{')+']')[0]
+    except IOError as err:
+        print(err)
+        print("Starts scraping Santonian Industries terminal...")
+        time.sleep(3)
+        return {}
+    
     return j
 
 
@@ -142,8 +147,11 @@ if __name__ == '__main__':
 
     try:
 
-        #_files = getAllDisksAndFiles()
-        _files = checkIfDatabaseEmpty('db.json')
+        _files = importDatabase('db.json')
+
+        if not _files:
+            _files = getAllDisksAndFiles()
+
         pp.pprint(_files)
 
     except Exception as E:
