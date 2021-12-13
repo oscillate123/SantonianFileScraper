@@ -1,0 +1,206 @@
+{
+    "ARCHIVE006": {
+        "info": {
+            "type": "OK",
+            "message": [
+                13
+            ]
+        },
+        "files": [],
+        "Logs": [],
+        "Audios": []
+    },
+    "CORRUPTED": {
+        "info": {
+            "type": "OK",
+            "message": [
+                11
+            ]
+        },
+        "files": [
+            "EBDT-4QS-QVB.AUD",
+            "XXX-4-WRDN.LOG",
+            "MAH-HS-666.LOG",
+            "EBDT-B55-VFS.LOG",
+            "US-DOD-RED1.LOG"
+        ],
+        "Logs": [
+            "XXX-4-WRDN.LOG",
+            "MAH-HS-666.LOG",
+            "EBDT-B55-VFS.LOG",
+            "US-DOD-RED1.LOG"
+        ],
+        "Audios": [
+            "EBDT-4QS-QVB.AUD"
+        ]
+    },
+    "ARCHIVE005": {
+        "info": {
+            "type": "OK",
+            "message": [
+                12
+            ]
+        },
+        "files": [
+            "FTR-044-V.LOG",
+            "HIST-D22-K.LOG",
+            "BCOM-3ED-0946.LOG",
+            "BCOM-3EG-2419.LOG",
+            "WKRP-817-CIN.LOG",
+            "EBET-743-HRD.LOG",
+            "PRL-DAT7-RFF8.LOG",
+            "LOCS-43W-MOA-D.LOG",
+            "REV-TPN-32W7-0.LOG",
+            "GHK-342-1088-D3.LOG",
+            "CDCX-1154-V.LOG",
+            "EBST-4TG-6SS-E.LOG",
+            "JULK-TEH-333-1.LOG",
+            "CIPJ-D75-P.LOG",
+            "MSDT-RUX-0562.LOG",
+            "EBDA-566-OUR.LOG",
+            "HOPO-BCD-002-L.LOG",
+            "EBET-765-NUG-S.LOG",
+            "SWNE-191-FRT-M.LOG",
+            "PEDD-J0L-221-R.LOG",
+            "GUNH-543-QAZ-3.LOG",
+            "GHIK-J78-F22.LOG",
+            "EBDT-654-833-W.LOG",
+            "WLG-4TY882M-3.LOG",
+            "EBDT-YET26-OLJ.LOG",
+            "EBDT-6EU5-HJ7.LOG",
+            "EBDT-LEX0378-EFL.LOG",
+            "EBDT-TKKL51X.LOG",
+            "EBDT-432-RYU.LOG",
+            "EBDT-TYUF965.LOG"
+        ],
+        "Logs": [
+            "FTR-044-V.LOG",
+            "HIST-D22-K.LOG",
+            "BCOM-3ED-0946.LOG",
+            "BCOM-3EG-2419.LOG",
+            "WKRP-817-CIN.LOG",
+            "EBET-743-HRD.LOG",
+            "PRL-DAT7-RFF8.LOG",
+            "LOCS-43W-MOA-D.LOG",
+            "REV-TPN-32W7-0.LOG",
+            "GHK-342-1088-D3.LOG",
+            "CDCX-1154-V.LOG",
+            "EBST-4TG-6SS-E.LOG",
+            "JULK-TEH-333-1.LOG",
+            "CIPJ-D75-P.LOG",
+            "MSDT-RUX-0562.LOG",
+            "EBDA-566-OUR.LOG",
+            "HOPO-BCD-002-L.LOG",
+            "EBET-765-NUG-S.LOG",
+            "SWNE-191-FRT-M.LOG",
+            "PEDD-J0L-221-R.LOG",
+            "GUNH-543-QAZ-3.LOG",
+            "GHIK-J78-F22.LOG",
+            "EBDT-654-833-W.LOG",
+            "WLG-4TY882M-3.LOG",
+            "EBDT-YET26-OLJ.LOG",
+            "EBDT-6EU5-HJ7.LOG",
+            "EBDT-LEX0378-EFL.LOG",
+            "EBDT-TKKL51X.LOG",
+            "EBDT-432-RYU.LOG",
+            "EBDT-TYUF965.LOG"
+        ],
+        "Audios": []
+    },
+    "ARCHIVE004": {
+        "info": {
+            "type": "OK",
+            "message": [
+                10
+            ]
+        },
+        "files": [
+            "SCHFR003.AUD",
+            "SQ4513_Y.AUD",
+            "SQ4512_Y.AUD",
+            "EBDT_HW8459.AUD",
+            "EBDT_ALKN234.LOG",
+            "EBDT_WIOGL56.LOG",
+            "EBDT_IHYQ456.LOG",
+            "EBDT_WG8T66.LOG",
+            "EBDT_04AF9.LOG",
+            "EBDT_WLVY548.LOG",
+            "EBDT_01BE1.LOG",
+            "EBDT_02BE1.LOG"
+        ],
+        "Logs": [
+            "EBDT_ALKN234.LOG",
+            "EBDT_WIOGL56.LOG",
+            "EBDT_IHYQ456.LOG",
+            "EBDT_WG8T66.LOG",
+            "EBDT_04AF9.LOG",
+            "EBDT_WLVY548.LOG",
+            "EBDT_01BE1.LOG",
+            "EBDT_02BE1.LOG"
+        ],
+        "Audios": [
+            "SCHFR003.AUD",
+            "SQ4513_Y.AUD",
+            "SQ4512_Y.AUD",
+            "EBDT_HW8459.AUD"
+        ]
+    },
+    "ARCHIVE003": {
+        "info": {
+            "type": "OK",
+            "message": [
+                9
+            ]
+        },
+        "files": [
+            "EBDT_54IJ-002.AUD",
+            "EBDT_54IJ-001.LOG",
+            "STAR-250789.LOG",
+            "EBDT_29FH-011.LOG",
+            "MAIL_LF_CD-387.LOG",
+            "EBDT_E110-111.LOG",
+            "EBDT_5N7V-110.LOG"
+        ],
+        "Logs": [
+            "EBDT_54IJ-001.LOG",
+            "STAR-250789.LOG",
+            "EBDT_29FH-011.LOG",
+            "MAIL_LF_CD-387.LOG",
+            "EBDT_E110-111.LOG",
+            "EBDT_5N7V-110.LOG"
+        ],
+        "Audios": [
+            "EBDT_54IJ-002.AUD"
+        ]
+    },
+    "ARCHIVE002": {
+        "info": {
+            "type": "OK",
+            "message": [
+                8
+            ]
+        },
+        "files": [
+            "CRP-991-B.LOG",
+            "CRP-991-A.LOG",
+            "EBDT_00BE11.LOG"
+        ],
+        "Logs": [
+            "CRP-991-B.LOG",
+            "CRP-991-A.LOG",
+            "EBDT_00BE11.LOG"
+        ],
+        "Audios": []
+    },
+    "ARCHIVE001": {
+        "info": {
+            "type": "OK",
+            "message": [
+                7
+            ]
+        },
+        "files": [],
+        "Logs": [],
+        "Audios": []
+    }
+}
